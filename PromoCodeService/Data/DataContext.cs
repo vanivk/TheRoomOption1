@@ -83,7 +83,7 @@ namespace Data
             var appUser = new User("test_user@optionone.com")
             {
                 Id = "02994cf0–3422–5cfe-erye-62f706d98cf6",
-                Email = "test@test.com",
+                Email = "test_user@optionone.com",
                 EmailConfirmed = true,
                 FirstName = "Test",
                 LastName = "User",
