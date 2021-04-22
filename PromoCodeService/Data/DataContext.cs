@@ -91,7 +91,7 @@ namespace Data
             };
 
             var ph = new PasswordHasher<User>();
-            appUser.PasswordHash = ph.HashPassword(appUser, "12345");
+            appUser.PasswordHash = ph.HashPassword(appUser, "Password12345");
 
             modelBuilder.Entity<User>().HasData(appUser);
 
